@@ -1,0 +1,356 @@
+TVidispot
+v6
+r1
+cCheck dependencies
+cDataModelVersionCompile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld
+cProcessPCH /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch Vidispot/Vidispot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot normal x86_64
+cCopyStringsFile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings Vidispot/en.lproj/InfoPlist.strings
+cCpResource Vidispot/en.lproj/Credits.rtf DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib
+cCompileAssetCatalog /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets
+cProcessInfoPlistFile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist
+cTouch /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c000000005130311600000000000004B3
+t1362112790
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005130233600000000000001DE
+t1362109238
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000513031A300000000000025C8
+t1362112931
+s9672
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch
+t1392578289
+s13088688
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o
+t1392578289
+s62960
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/Vidispot.LinkFileList
+c0000000053010EF0000000000000012F
+t1392578288
+s303
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o
+t1392578289
+s2848
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_dependencies.txt
+t1392578291
+s295
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_generated_info.plist
+t1392578291
+s181
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app
+t1392578288
+s102
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist
+t1392578291
+s1308
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot
+t1392578290
+s26412
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/PkgInfo
+t1392578291
+s8
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Base.lproj/MainMenu.nib
+t1392578290
+s39610
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd
+t1392578288
+s170
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf
+t1392578290
+s436
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1392578290
+s92
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m
+c0000000053010DD90000000000001D26
+t1392578009
+s7462
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib
+c0000000053010EF0000000000000C028
+t1392578288
+s49192
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets
+c0000000053010DD90000000000000066
+t1392578009
+s102
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist
+c0000000053010DD900000000000003E2
+t1392578009
+s994
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Prefix.pch
+c0000000053010DD900000000000000AC
+t1392578009
+s172
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld
+c0000000053010DD90000000000000088
+t1392578009
+s136
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/en.lproj/Credits.rtf
+c0000000053010DD900000000000001B4
+t1392578009
+s436
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/en.lproj/InfoPlist.strings
+c0000000053010DD9000000000000002D
+t1392578009
+s45
+
+N/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m
+c0000000053010DD900000000000000BD
+t1392578009
+s189
+
+CBuild AST from /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m
+r0
+
+CBuild AST from /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies44874c7046b1b841^2a8d547046b1b841^-282"OS X deployment target '10.9' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.8' for the OS X 10.8 SDK.OS X deployment target '10.9' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.8' for the OS X 10.8 SDK.2(21%IDEActivityLogMessage2@140"OS X deployment target '10.9' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.8' for the OS X 10.8 SDK.-414271088#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@140"OS X deployment target '10.9' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.8' for the OS X 10.8 SDK.-414271088#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"A64FE8B9-271D-498C-A59A-0BA042EE7A91-
+
+CCompileAssetCatalog /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets
+s414271090.076844
+e414271091.717458
+r1
+xCompileAssetCatalog
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Assets.car
+o/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CompileAssetCatalog DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources Vidispot/Images.xcassets118"CompileAssetCatalog DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources Vidispot/Images.xcassets8db5137246b1b841^a8abb77346b1b841^-324"/* com.apple.actool.compilation-results *//Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Assets.car/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@74"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets/0000000000000000^925"CompileAssetCatalog DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources Vidispot/Images.xcassets    cd /Users/sdickson/Code/VideoEditor/Vidispot    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.9 --target-device mac --compile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Images.xcassets36"771046A7-60E6-4D11-8A5B-9BC18EE20EBB-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CCompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414271089.574601
+e414271089.680544
+r1
+xCompileC
+xDerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m
+d/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m214"CompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o Vidispot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler732c937146b1b841^8239ae7146b1b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m0000000000000000^3437"CompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o Vidispot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/VideoEditor/Vidispot    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-generated-files.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-own-target-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-all-target-headers.hmap -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-project-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources/x86_64 -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources -F/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug -include /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/AppDelegate.m -o /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o36"3C2E76E6-0DED-4CE8-B955-F443543A6005-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CCompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414271089.574824
+e414271089.664893
+r1
+xCompileC
+xDerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m200"CompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o Vidispot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1536937146b1b841^b136aa7146b1b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m0000000000000000^3395"CompileC DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o Vidispot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/VideoEditor/Vidispot    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-generated-files.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-own-target-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-all-target-headers.hmap -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-project-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources/x86_64 -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources -F/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug -include /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.dia -c /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/main.m -o /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o36"B59959A3-9833-4472-84CE-086D45825D85-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CCompileXIB /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib
+s414271090.076426
+e414271090.558140
+r1
+xCompileXIB
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib
+o2014-02-16 13:18:10.145 ibtoold[8979:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-4510/Framework/Document/IBDocument.m:8601
+oDetails:  Found an uninitialized ambiguous view (<NSScrollView: 0x7fc6ebcb3600>) in an ambiguity status group that contained more than the view. Uninitialized views should be in their own group. This will result in losing the ambiguity status of those other views: <IBAutolayoutAmbiguityGroup: 0x7fc6ee110d40> orientationMask=Vertical ambiguousViewsToAmbiguityStatus={
+o    "<NSScrollView: 0x7fc6ebcb3600>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee1094b0 view=<NSScrollView: 0x7fc6ebcb3600> horizontalPosition=1 verticalPosition=1 horizontalSize=1 verticalSize=1>";
+o    "<NSClipView: 0x7fc6ebcb2bf0>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee109520 view=<NSClipView: 0x7fc6ebcb2bf0> horizontalSize=1 verticalSize=1>";
+o}
+oObject:   <IBCocoaDocument: 0x7fc6ee82f200>
+oMethod:   -_updateUninitializedAmbiguityStatusInUnit:mutableEffectiveAmbiguousViewStatusGroups:
+oThread:   <NSThread: 0x7fc6ebe194f0>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o2014-02-16 13:18:10.145 ibtoold[8979:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-4510/Framework/Document/IBDocument.m:8601
+oDetails:  Found an uninitialized ambiguous view (<NSScrollView: 0x7fc6ebcb3600>) in an ambiguity status group that contained more than the view. Uninitialized views should be in their own group. This will result in losing the ambiguity status of those other views: <IBAutolayoutAmbiguityGroup: 0x7fc6ee10dc70> orientationMask=Horizontal ambiguousViewsToAmbiguityStatus={
+o    "<NSScrollView: 0x7fc6ebcb3600>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee1094b0 view=<NSScrollView: 0x7fc6ebcb3600> horizontalPosition=1 verticalPosition=1 horizontalSize=1 verticalSize=1>";
+o    "<NSClipView: 0x7fc6ebcb2bf0>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee109520 view=<NSClipView: 0x7fc6ebcb2bf0> horizontalSize=1 verticalSize=1>";
+o}
+oObject:   <IBCocoaDocument: 0x7fc6ee82f200>
+oMethod:   -_updateUninitializedAmbiguityStatusInUnit:mutableEffectiveAmbiguousViewStatusGroups:
+oThread:   <NSThread: 0x7fc6ebe194f0>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o/* com.apple.ibtool.document.warnings */
+o/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+o/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib:dWZ-ds-cXj: warning: Frame for "Clip View" will be different at run time. [16]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib43"CompileXIB Vidispot/Base.lproj/MainMenu.xib6b9a137246b1b841^54e28e7246b1b841^-2830"2014-02-16 13:18:10.145 ibtoold[8979:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-4510/Framework/Document/IBDocument.m:8601Details:  Found an uninitialized ambiguous view (<NSScrollView: 0x7fc6ebcb3600>) in an ambiguity status group that contained more than the view. Uninitialized views should be in their own group. This will result in losing the ambiguity status of those other views: <IBAutolayoutAmbiguityGroup: 0x7fc6ee110d40> orientationMask=Vertical ambiguousViewsToAmbiguityStatus={    "<NSScrollView: 0x7fc6ebcb3600>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee1094b0 view=<NSScrollView: 0x7fc6ebcb3600> horizontalPosition=1 verticalPosition=1 horizontalSize=1 verticalSize=1>";    "<NSClipView: 0x7fc6ebcb2bf0>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee109520 view=<NSClipView: 0x7fc6ebcb2bf0> horizontalSize=1 verticalSize=1>";}Object:   <IBCocoaDocument: 0x7fc6ee82f200>Method:   -_updateUninitializedAmbiguityStatusInUnit:mutableEffectiveAmbiguousViewStatusGroups:Thread:   <NSThread: 0x7fc6ebe194f0>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.2014-02-16 13:18:10.145 ibtoold[8979:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-4510/Framework/Document/IBDocument.m:8601Details:  Found an uninitialized ambiguous view (<NSScrollView: 0x7fc6ebcb3600>) in an ambiguity status group that contained more than the view. Uninitialized views should be in their own group. This will result in losing the ambiguity status of those other views: <IBAutolayoutAmbiguityGroup: 0x7fc6ee10dc70> orientationMask=Horizontal ambiguousViewsToAmbiguityStatus={    "<NSScrollView: 0x7fc6ebcb3600>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee1094b0 view=<NSScrollView: 0x7fc6ebcb3600> horizontalPosition=1 verticalPosition=1 horizontalSize=1 verticalSize=1>";    "<NSClipView: 0x7fc6ebcb2bf0>" = "<IBAutolayoutAmbiguityStatus: 0x7fc6ee109520 view=<NSClipView: 0x7fc6ebcb2bf0> horizontalSize=1 verticalSize=1>";}Object:   <IBCocoaDocument: 0x7fc6ee82f200>Method:   -_updateUninitializedAmbiguityStatusInUnit:mutableEffectiveAmbiguousViewStatusGroups:Thread:   <NSThread: 0x7fc6ebe194f0>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide./* com.apple.ibtool.document.warnings *//Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib:dWZ-ds-cXj: warning: Frame for "Clip View" will be different at run time.2(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar414271090#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@81"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@52"Frame for "Clip View" will be different at run time.-414271090#18446744073709551615#0#-1#-3@81"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#14"Misplaced View--0#0#1#-19%DVTDocumentLocation4@81"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib0000000000000000^569"CompileXIB Vidispot/Base.lproj/MainMenu.xib    cd /Users/sdickson/Code/VideoEditor/Vidispot    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Base.lproj/MainMenu.xib36"ADCC520E-25A0-4B9E-9CFE-650AE9653AB8-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CCopyStringsFile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings Vidispot/en.lproj/InfoPlist.strings
+s414271090.076138
+e414271090.078466
+r1
+xCopyStringsFile
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings
+xVidispot/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Vidispot/en.lproj/InfoPlist.strings152"CopyStringsFile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings Vidispot/en.lproj/InfoPlist.strings228c137246b1b841^df16147246b1b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/en.lproj/InfoPlist.strings0000000000000000^456"CopyStringsFile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/InfoPlist.strings Vidispot/en.lproj/InfoPlist.strings    cd /Users/sdickson/Code/VideoEditor/Vidispot    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj -- Vidispot/en.lproj/InfoPlist.strings36"171D9F5F-8D83-4B26-93EB-B3211523CB1F-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CCpResource Vidispot/en.lproj/Credits.rtf DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf
+s414271090.076242
+e414271090.077919
+r1
+xCpResource
+xVidispot/en.lproj/Credits.rtf
+xDerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf135"CpResource Vidispot/en.lproj/Credits.rtf DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf198e137246b1b841^56f4137246b1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf0034b821deffdf42^494"CpResource Vidispot/en.lproj/Credits.rtf DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/sdickson/Code/VideoEditor/Vidispot    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/en.lproj/Credits.rtf /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/en.lproj36"67CC61E6-1ABB-4A46-BEDC-513742DD6630-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CDataModelVersionCompile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld
+s414271088.331026
+e414271088.885225
+r1
+xDataModelVersionCompile
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"DataModelVersionCompile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd Vidispot/Vidispot.xcdatamodeld142"DataModelVersionCompile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd Vidispot/Vidispot.xcdatamodeld6023557046b1b841^1b9ee27046b1b841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld/0000000000000000^623"DataModelVersionCompile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd Vidispot/Vidispot.xcdatamodeld    cd /Users/sdickson/Code/VideoEditor/Vidispot    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.9 /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot.xcdatamodeld /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Resources/Vidispot.momd36"A3138C31-3A9C-49BB-A65C-54CCC4D2BD76-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CLd /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot normal x86_64
+s414271089.710257
+e414271090.075522
+r1
+xLd
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot
+xnormal
+xx86_64
+d/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/Vidispot.LinkFileList
+d/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdnsinfo.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot95"Ld DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot normal x86_64a4e0b57146b1b841^de55137246b1b841^---0#0#1#--1153"Ld DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot normal x86_64    cd /Users/sdickson/Code/VideoEditor/Vidispot    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug -F/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug -filelist /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/Vidispot.LinkFileList -mmacosx-version-min=10.9 -fobjc-arc -fobjc-link-runtime -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Objects-normal/x86_64/Vidispot_dependency_info.dat -o /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/MacOS/Vidispot36"37534C84-258A-463C-9BEB-B953C3D0CC37-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CProcessInfoPlistFile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist
+s414271091.717893
+e414271091.719527
+r1
+xProcessInfoPlistFile
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist
+x/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist124"ProcessInfoPlistFile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist Vidispot/Vidispot-Info.plist4ed3b77346b1b841^7233b87346b1b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist0000000000000000^734"ProcessInfoPlistFile DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist Vidispot/Vidispot-Info.plist    cd /Users/sdickson/Code/VideoEditor/Vidispot    builtin-infoPlistUtility /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Info.plist -genpkginfo /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/assetcatalog_generated_info.plist -o /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app/Contents/Info.plist36"38246818-4AE3-4C33-81F6-5A5C28C9A3E5-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CProcessPCH /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch Vidispot/Vidispot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414271088.331604
+e414271089.573982
+r1
+xProcessPCH
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch
+xVidispot/Vidispot-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Vidispot/Vidispot-Prefix.pch238"ProcessPCH DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch Vidispot/Vidispot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9223557046b1b841^a6f2927146b1b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Prefix.pch0000000000000000^3342"ProcessPCH DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch Vidispot/Vidispot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/VideoEditor/Vidispot    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-generated-files.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-own-target-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-all-target-headers.hmap -iquote /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/Vidispot-project-headers.hmap -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources/x86_64 -I/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/Vidispot.build/Debug/Vidispot.build/DerivedSources -F/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug --serialize-diagnostics /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.dia -MMD -MT dependencies -MF /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.d -c /Users/sdickson/Code/VideoEditor/Vidispot/Vidispot/Vidispot-Prefix.pch -o /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Intermediates/PrecompiledHeaders/Vidispot-Prefix-gjqbuyneywawvfahzwshnqhspcue/Vidispot-Prefix.pch.pch36"9A528CFF-2A00-46DC-A8A9-A4B94EE26793-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
+CProcessPCH /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Index/PrecompiledHeaders/Vidispot-Prefix-cklmagliwiasnhdqvfwxhavigala_ast/Vidispot-Prefix.pch.pch Vidispot/Vidispot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app
+s414271091.719962
+e414271091.739310
+r1
+xTouch
+x/Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app60"Touch DerivedData/Vidispot/Build/Products/Debug/Vidispot.app6056b87346b1b841^0f45bd7346b1b841^---0#0#1#--229"Touch DerivedData/Vidispot/Build/Products/Debug/Vidispot.app    cd /Users/sdickson/Code/VideoEditor/Vidispot    /usr/bin/touch -c /Users/sdickson/Code/VideoEditor/Vidispot/DerivedData/Vidispot/Build/Products/Debug/Vidispot.app36"5F3CC37E-BB1B-4BD8-9BB6-9BBD3C585E36-
+bAFDBA2C1-1BBA-4BC4-8F31-312683AE8C75
+
