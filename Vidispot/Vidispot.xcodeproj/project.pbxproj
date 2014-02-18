@@ -20,6 +20,7 @@
 		3C2365F518B1455900ABBEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C2365F318B1455900ABBEC1 /* InfoPlist.strings */; };
 		3C2365F718B1455900ABBEC1 /* VidispotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2365F618B1455900ABBEC1 /* VidispotTests.m */; };
 		3C23660218B149BE00ABBEC1 /* toolbar_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C23660118B149BE00ABBEC1 /* toolbar_new.png */; };
+		DE9620E918B3E14D00911329 /* timeline_ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9620E818B3E14D00911329 /* timeline_ruler.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3C2365F418B1455900ABBEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C2365F618B1455900ABBEC1 /* VidispotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VidispotTests.m; sourceTree = "<group>"; };
 		3C23660118B149BE00ABBEC1 /* toolbar_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_new.png; sourceTree = "<group>"; };
+		DE9620E818B3E14D00911329 /* timeline_ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_ruler.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		3C23660018B149B000ABBEC1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DE9620E818B3E14D00911329 /* timeline_ruler.png */,
 				3C23660118B149BE00ABBEC1 /* toolbar_new.png */,
 			);
 			name = Images;
@@ -247,6 +250,7 @@
 				3C23660218B149BE00ABBEC1 /* toolbar_new.png in Resources */,
 				3C2365E518B1455900ABBEC1 /* Images.xcassets in Resources */,
 				3C2365DA18B1455900ABBEC1 /* Credits.rtf in Resources */,
+				DE9620E918B3E14D00911329 /* timeline_ruler.png in Resources */,
 				3C2365E018B1455900ABBEC1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +483,7 @@
 				3C2365FC18B1455900ABBEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C2365FD18B1455900ABBEC1 /* Build configuration list for PBXNativeTarget "VidispotTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +492,7 @@
 				3C2365FF18B1455900ABBEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

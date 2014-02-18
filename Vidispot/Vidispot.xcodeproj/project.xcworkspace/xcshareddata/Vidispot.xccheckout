@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>440F8F0F-B40A-4491-869D-5228B913C99E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vidispot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>502B40A7-DDB1-4C5A-AD55-9A25559AA9AB</key>
+		<string>ssh://github.com/superman9740/vidispot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Vidispot/Vidispot.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>502B40A7-DDB1-4C5A-AD55-9A25559AA9AB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/superman9740/vidispot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>502B40A7-DDB1-4C5A-AD55-9A25559AA9AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>502B40A7-DDB1-4C5A-AD55-9A25559AA9AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Vidispot</string>
+		</dict>
+	</array>
+</dict>
+</plist>
