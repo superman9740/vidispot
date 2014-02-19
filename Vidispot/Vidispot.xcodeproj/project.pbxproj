@@ -23,6 +23,7 @@
 		3C98972818B440F80066C480 /* 04 hairsalon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972718B440F80066C480 /* 04 hairsalon.png */; };
 		3C98972A18B4463F0066C480 /* PizzaRest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972918B4463F0066C480 /* PizzaRest.png */; };
 		3C98972C18B44BA10066C480 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972B18B44BA10066C480 /* videoplayer.png */; };
+		DE61EB0918B5383000D599D0 /* ImageViewWithDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61EB0818B5383000D599D0 /* ImageViewWithDragDrop.m */; };
 		DE9620E918B3E14D00911329 /* timeline_ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9620E818B3E14D00911329 /* timeline_ruler.png */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		3C98972718B440F80066C480 /* 04 hairsalon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04 hairsalon.png"; sourceTree = "<group>"; };
 		3C98972918B4463F0066C480 /* PizzaRest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaRest.png; sourceTree = "<group>"; };
 		3C98972B18B44BA10066C480 /* videoplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoplayer.png; sourceTree = "<group>"; };
+		DE61EB0718B5383000D599D0 /* ImageViewWithDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewWithDragDrop.h; sourceTree = "<group>"; };
+		DE61EB0818B5383000D599D0 /* ImageViewWithDragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewWithDragDrop.m; sourceTree = "<group>"; };
 		DE9620E818B3E14D00911329 /* timeline_ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_ruler.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +130,7 @@
 		3C2365CF18B1455900ABBEC1 /* Vidispot */ = {
 			isa = PBXGroup;
 			children = (
+				DE61EB0318B5338000D599D0 /* Themes */,
 				3C2365DB18B1455900ABBEC1 /* AppDelegate.h */,
 				3C2365DC18B1455900ABBEC1 /* AppDelegate.m */,
 				3C2365DE18B1455900ABBEC1 /* MainMenu.xib */,
@@ -178,6 +182,15 @@
 				3C23660118B149BE00ABBEC1 /* toolbar_new.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		DE61EB0318B5338000D599D0 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				DE61EB0718B5383000D599D0 /* ImageViewWithDragDrop.h */,
+				DE61EB0818B5383000D599D0 /* ImageViewWithDragDrop.m */,
+			);
+			name = Themes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +298,7 @@
 				3C2365E318B1455900ABBEC1 /* Vidispot.xcdatamodeld in Sources */,
 				3C2365DD18B1455900ABBEC1 /* AppDelegate.m in Sources */,
 				3C2365D618B1455900ABBEC1 /* main.m in Sources */,
+				DE61EB0918B5383000D599D0 /* ImageViewWithDragDrop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
