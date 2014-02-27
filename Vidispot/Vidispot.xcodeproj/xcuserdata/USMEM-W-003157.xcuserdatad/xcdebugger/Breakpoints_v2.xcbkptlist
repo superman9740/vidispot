@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Vidispot/ImageViewWithDragDrop.m"
-            timestampString = "414529980.976024"
+            timestampString = "415221081.321473"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "-prepareForDragOperation:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidispot/AVFoundationView.m"
+            timestampString = "415221110.113401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "664"
+            endingLineNumber = "664"
             landmarkName = "-performDragOperation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,13 +41,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Vidispot/ImageViewWithDragDrop.m"
-            timestampString = "414529983.544161"
+            filePath = "Vidispot/AVFoundationView.m"
+            timestampString = "415224603.510421"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "-prepareForDragOperation:"
+            startingLineNumber = "702"
+            endingLineNumber = "702"
+            landmarkName = "-writeImagesToMovieAtPath:withSize:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidispot/AVFoundationView.m"
+            timestampString = "415224860.928325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "781"
+            endingLineNumber = "781"
+            landmarkName = "-writeImagesToMovieAtPath:withSize:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

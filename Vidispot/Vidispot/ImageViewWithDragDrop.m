@@ -22,7 +22,7 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
     self=[super initWithCoder:coder];
     if ( self ) {
         //register for all the image types we can display
-        [self registerForDraggedTypes:[NSImage imagePasteboardTypes]];
+        [self registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
         
     }
     return self;
@@ -54,7 +54,7 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
         NSDragOperationCopy ) {
         
         //highlight our drop zone
-   //     highlight=YES;
+//        highlight=YES;
         
         [self setNeedsDisplay: YES];
         
@@ -89,6 +89,8 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
     
     return NSDragOperationNone;
 }
+
+
 
 - (void)draggingExited:(id <NSDraggingInfo>)sender
 {
@@ -140,27 +142,22 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
     /*------------------------------------------------------
      method that should handle the drop data
      --------------------------------------------------------*/
-    if ([sender draggingSource] != self ) {
+    if ( [sender draggingSource] != self ) {
         NSURL* fileURL;
         
         //set the image using the best representation we can get from the pasteboard
         if([NSImage canInitWithPasteboard: [sender draggingPasteboard]]) {
             NSImage *newImage = [[NSImage alloc] initWithPasteboard: [sender draggingPasteboard]];
             [self setImage:newImage];
-            //            NSRect selfFrame = self.frame;
-            //            selfFrame.size = newImage.size;
-            //            selfFrame.origin = CGPointMake(0, 0);
-            //            self.frame = selfFrame;
-            //            self.superview.frame = self.frame;
-            //            [newImage release];
         }
         
+        //if the drag comes from a file, set the window title to the filename
+        fileURL=[NSURL URLFromPasteboard: [sender draggingPasteboard]];
+        [[self window] setTitle: fileURL!=NULL ? [fileURL absoluteString] : @"(no name)"];
     }
-    
     
     return YES;
 }
-
 - (NSRect)windowWillUseStandardFrame:(NSWindow *)window defaultFrame:(NSRect)newFrame;
 {
     /*------------------------------------------------------
@@ -179,57 +176,43 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
 
 - (void)mouseDown:(NSEvent*)event
 {
-        NSPoint dragPosition;
-        NSRect imageLocation;
-        
-        dragPosition = [self convertPoint:[event locationInWindow] fromView:nil];
-        dragPosition.x -= 16;
-        dragPosition.y -= 16;
-        imageLocation.origin = dragPosition;
-        imageLocation.size = NSMakeSize(32,32);
-        [self dragPromisedFilesOfTypes:[NSArray arrayWithObject:NSPasteboardTypeTIFF] fromRect:imageLocation source:self slideBack:YES event:event];
+    /*------------------------------------------------------
+     catch mouse down events in order to start drag
+     --------------------------------------------------------*/
     
-}
-
-
-- (void)dragImage:(NSImage *)anImage at:(NSPoint)viewLocation offset:(NSSize)initialOffset event:(NSEvent *)event pasteboard:(NSPasteboard *)pboard source:(id)sourceObj slideBack:(BOOL)slideFlag
-{
-    //create a new image for our semi-transparent drag image
-    NSImage* dragImage=[[NSImage alloc] initWithSize:[[self image] size]];
+    /* Dragging operation occur within the context of a special pasteboard (NSDragPboard).
+     * All items written or read from a pasteboard must conform to NSPasteboardWriting or
+     * NSPasteboardReading respectively.  NSPasteboardItem implements both these protocols
+     * and is as a container for any object that can be serialized to NSData. */
     
-    [dragImage lockFocus];//draw inside of our dragImage
-    //draw our original image as 50% transparent
-    [[self image] dissolveToPoint: NSZeroPoint fraction: .5];
-    [dragImage unlockFocus];//finished drawing
-    [dragImage setScalesWhenResized:NO];//we want the image to resize
-    [dragImage setSize:[self bounds].size];//change to the size we are displaying
+    NSPasteboardItem *pbItem = [NSPasteboardItem new];
+    /* Our pasteboard item will support public.tiff, public.pdf, and our custom UTI (see comment in -draggingEntered)
+     * representations of our data (the image).  Rather than compute both of these representations now, promise that
+     * we will provide either of these representations when asked.  When a receiver wants our data in one of the above
+     * representations, we'll get a call to  the NSPasteboardItemDataProvider protocol method –pasteboard:item:provideDataForType:. */
+    [pbItem setDataProvider:self forTypes:[NSArray arrayWithObjects:NSPasteboardTypeTIFF, NSPasteboardTypePDF, kPrivateDragUTI, nil]];
     
-    [super dragImage:dragImage at:self.bounds.origin offset:NSZeroSize event:event pasteboard:pboard source:sourceObj slideBack:slideFlag];
-   
-}
-
-- (NSArray *)namesOfPromisedFilesDroppedAtDestination:(NSURL *)dropDestination
-{
-    NSArray *representations;
-    NSData *bitmapData;
+    //create a new NSDraggingItem with our pasteboard item.
+    NSDraggingItem *dragItem = [[NSDraggingItem alloc] initWithPasteboardWriter:pbItem];
     
-    representations = [[self image] representations];
+    /* The coordinates of the dragging frame are relative to our view.  Setting them to our view's bounds will cause the drag image
+     * to be the same size as our view.  Alternatively, you can set the draggingFrame to an NSRect that is the size of the image in
+     * the view but this can cause the dragged image to not line up with the mouse if the actual image is smaller than the size of the
+     * our view. */
+    NSRect draggingRect = self.bounds;
     
-    if ([[[representations objectAtIndex:0] className] isEqualToString:@"NSBitmapImageRep"]) {
-        bitmapData = [NSBitmapImageRep representationOfImageRepsInArray:representations
-                                                              usingType:NSPNGFileType properties:nil];
-    } else {
-        NSLog(@"%@", [[[[self image] representations] objectAtIndex:0] className]);
-        
-        [[self image] lockFocus];
-        NSBitmapImageRep *bitmapRep = [[NSBitmapImageRep alloc] initWithFocusedViewRect:NSMakeRect(0.0, 0.0, [self image].size.width, self.image.size.height)];
-        [[self image] unlockFocus];
-        
-        bitmapData = [bitmapRep TIFFRepresentation];
-    }
+    /* While our dragging item is represented by an image, this image can be made up of multiple images which
+     * are automatically composited together in painting order.  However, since we are only dragging a single
+     * item composed of a single image, we can use the convince method below. For a more complex example
+     * please see the MultiPhotoFrame sample. */
+    [dragItem setDraggingFrame:draggingRect contents:[self image]];
     
-    [bitmapData writeToFile:[[dropDestination path] stringByAppendingPathComponent:@"test.png"]  atomically:YES];
-    return [NSArray arrayWithObjects:@"test.png", nil];
+    //create a dragging session with our drag item and ourself as the source.
+    NSDraggingSession *draggingSession = [self beginDraggingSessionWithItems:[NSArray arrayWithObject:dragItem] event:event source:self];
+    //causes the dragging item to slide back to the source if the drag fails.
+    draggingSession.animatesToStartingPositionsOnCancelOrFail = YES;
+    
+    draggingSession.draggingFormation = NSDraggingFormationNone;
 }
 
 - (NSDragOperation)draggingSession:(NSDraggingSession *)session sourceOperationMaskForDraggingContext:(NSDraggingContext)context
@@ -277,5 +260,7 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
     }
     
 }
+
+
 
 @end

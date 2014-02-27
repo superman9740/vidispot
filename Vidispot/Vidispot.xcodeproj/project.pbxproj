@@ -23,6 +23,12 @@
 		3C98972818B440F80066C480 /* 04 hairsalon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972718B440F80066C480 /* 04 hairsalon.png */; };
 		3C98972A18B4463F0066C480 /* PizzaRest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972918B4463F0066C480 /* PizzaRest.png */; };
 		3C98972C18B44BA10066C480 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C98972B18B44BA10066C480 /* videoplayer.png */; };
+		DE28232018BFB7CA003A0AEF /* AVFoundationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE28231F18BFB7CA003A0AEF /* AVFoundationView.m */; };
+		DE28232218BFB880003A0AEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28232118BFB880003A0AEF /* AVFoundation.framework */; };
+		DE28232418BFB947003A0AEF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28232318BFB947003A0AEF /* CoreMedia.framework */; };
+		DE28232618BFD2CB003A0AEF /* CoreMediaIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28232518BFD2CB003A0AEF /* CoreMediaIO.framework */; };
+		DE28232818BFD2EA003A0AEF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28232718BFD2EA003A0AEF /* ImageIO.framework */; };
+		DE28232A18BFD305003A0AEF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28232918BFD305003A0AEF /* CoreVideo.framework */; };
 		DE61EB0918B5383000D599D0 /* ImageViewWithDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61EB0818B5383000D599D0 /* ImageViewWithDragDrop.m */; };
 		DE9620E918B3E14D00911329 /* timeline_ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9620E818B3E14D00911329 /* timeline_ruler.png */; };
 /* End PBXBuildFile section */
@@ -62,6 +68,13 @@
 		3C98972718B440F80066C480 /* 04 hairsalon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04 hairsalon.png"; sourceTree = "<group>"; };
 		3C98972918B4463F0066C480 /* PizzaRest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaRest.png; sourceTree = "<group>"; };
 		3C98972B18B44BA10066C480 /* videoplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoplayer.png; sourceTree = "<group>"; };
+		DE28231E18BFB7CA003A0AEF /* AVFoundationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationView.h; sourceTree = "<group>"; };
+		DE28231F18BFB7CA003A0AEF /* AVFoundationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationView.m; sourceTree = "<group>"; };
+		DE28232118BFB880003A0AEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DE28232318BFB947003A0AEF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DE28232518BFD2CB003A0AEF /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = System/Library/Frameworks/CoreMediaIO.framework; sourceTree = SDKROOT; };
+		DE28232718BFD2EA003A0AEF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DE28232918BFD305003A0AEF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		DE61EB0718B5383000D599D0 /* ImageViewWithDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewWithDragDrop.h; sourceTree = "<group>"; };
 		DE61EB0818B5383000D599D0 /* ImageViewWithDragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewWithDragDrop.m; sourceTree = "<group>"; };
 		DE9620E818B3E14D00911329 /* timeline_ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_ruler.png; sourceTree = "<group>"; };
@@ -72,6 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE28232A18BFD305003A0AEF /* CoreVideo.framework in Frameworks */,
+				DE28232818BFD2EA003A0AEF /* ImageIO.framework in Frameworks */,
+				DE28232618BFD2CB003A0AEF /* CoreMediaIO.framework in Frameworks */,
+				DE28232418BFB947003A0AEF /* CoreMedia.framework in Frameworks */,
+				DE28232218BFB880003A0AEF /* AVFoundation.framework in Frameworks */,
 				3C2365CA18B1455900ABBEC1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +128,11 @@
 		3C2365C818B1455900ABBEC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE28232918BFD305003A0AEF /* CoreVideo.framework */,
+				DE28232718BFD2EA003A0AEF /* ImageIO.framework */,
+				DE28232518BFD2CB003A0AEF /* CoreMediaIO.framework */,
+				DE28232318BFB947003A0AEF /* CoreMedia.framework */,
+				DE28232118BFB880003A0AEF /* AVFoundation.framework */,
 				3C2365C918B1455900ABBEC1 /* Cocoa.framework */,
 				3C2365EB18B1455900ABBEC1 /* XCTest.framework */,
 				3C2365CB18B1455900ABBEC1 /* Other Frameworks */,
@@ -130,6 +153,7 @@
 		3C2365CF18B1455900ABBEC1 /* Vidispot */ = {
 			isa = PBXGroup;
 			children = (
+				DE28231D18BFB7C0003A0AEF /* VideoPreview */,
 				DE61EB0318B5338000D599D0 /* Themes */,
 				3C2365DB18B1455900ABBEC1 /* AppDelegate.h */,
 				3C2365DC18B1455900ABBEC1 /* AppDelegate.m */,
@@ -182,6 +206,15 @@
 				3C23660118B149BE00ABBEC1 /* toolbar_new.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		DE28231D18BFB7C0003A0AEF /* VideoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				DE28231E18BFB7CA003A0AEF /* AVFoundationView.h */,
+				DE28231F18BFB7CA003A0AEF /* AVFoundationView.m */,
+			);
+			name = VideoPreview;
 			sourceTree = "<group>";
 		};
 		DE61EB0318B5338000D599D0 /* Themes */ = {
@@ -298,6 +331,7 @@
 				3C2365E318B1455900ABBEC1 /* Vidispot.xcdatamodeld in Sources */,
 				3C2365DD18B1455900ABBEC1 /* AppDelegate.m in Sources */,
 				3C2365D618B1455900ABBEC1 /* main.m in Sources */,
+				DE28232018BFB7CA003A0AEF /* AVFoundationView.m in Sources */,
 				DE61EB0918B5383000D599D0 /* ImageViewWithDragDrop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
